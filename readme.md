@@ -6,13 +6,13 @@ DR-MoEViT-UNet-CLS is a novel deep learning architecture for analyzing colorecta
 
 ## Key Contributions
 
-- **Integration of Vision Transformers with Expert Systems**: We combine the global context understanding capabilities of transformers with specialized expert networks that focus on different aspects of histopathological features.
+- **Integration of Vision Transformers with Expert Systems**: Combined the global context understanding capabilities of transformers with specialized expert networks that focus on different aspects of histopathological features.
 
-- **Dynamic Routing Mechanism**: Our approach implements an attention-based routing algorithm that adaptively selects the most relevant expert pathways based on the input characteristics, optimizing computational resources and improving feature extraction.
+- **Dynamic Routing Mechanism**: Implemented an attention-based routing algorithm that adaptively selects the most relevant expert pathways based on the input characteristics, optimizing computational resources and improving feature extraction.
 
 - **Multi-task Learning Framework**: The architecture simultaneously addresses segmentation and classification, allowing for knowledge sharing between these related tasks to improve overall performance.
 
-- **Enhanced Segmentation Through U-Net Design**: We incorporate skip connections and progressive upsampling in a U-Net style decoder that preserves fine-grained spatial details critical for accurate lesion boundary delineation.
+- **Enhanced Segmentation Through U-Net Design**: Incorporated skip connections and progressive upsampling in a U-Net style decoder that preserves fine-grained spatial details critical for accurate lesion boundary delineation.
 
 ## Architecture Details
 
@@ -55,7 +55,7 @@ The model classifies tissue samples into six distinct categories:
 
 ## Loss Function Design
 
-We implement a multi-component loss function that balances:
+Implemented a multi-component loss function that balances:
 - Dice loss and Focal loss for segmentation accuracy
 - Cross-entropy loss for classification performance
 - Auxiliary losses to enhance gradient flow
